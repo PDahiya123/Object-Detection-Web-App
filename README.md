@@ -91,3 +91,20 @@ npm install
 `npm start`
 
  After doing the above steps go to your browser and type localhost:3000.
+ 
+ ## Live Demo - [Click Here](http://PDahiya123.github.io/Object-Detection-Web-App)
+
+1. Wait for the Model to load
+2. Allow access to the Webcam
+3. Click the 'Capture Photo' button to log a base64 string of the Webcam frame
+4. Click 'Predict' button to get a Predictions
+5. Type a Class Name to filter the Predictions for that specific Class
+
+Note: Please Click the canvas to load a Webcam frame onto the canvas.
+
+## Resources:
+
+- [Create a New React App](https://reactjs.org/docs/create-a-new-react-app.html) - Get started with React here
+- [Material-UI](https://material-ui.com/) - React components for faster and easier web development
+- [TensorFlow.js](https://www.tensorflow.org/js) - A library for machine learning in Javascript
+- [React Webcam](https://www.npmjs.com/package/react-webcam) - Webcam component for React
